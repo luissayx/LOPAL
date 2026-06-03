@@ -1,0 +1,10 @@
+print("Ping")
+ml = [45, 32, 110, 28, 55]
+print(f"{ml}")
+maior = max(ml)
+print(" O maoir tempo foi:", maior)
+menor = min (ml)
+print("O menor tempo foi:", menor)
+soma = sum(ml)
+media= soma / len(ml)
+print("O média de latência:", media)
